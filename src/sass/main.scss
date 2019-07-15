@@ -1,0 +1,76 @@
+$input-placeholder-color:grey;
+
+
+@import "../bulma-0.7.5/bulma.sass";
+
+$NavBarColorMain: #131e34;
+$NavNameColor: #fff;
+$BannerLeft: #49c6f4;
+$BannerRight: #8648cd;
+$txtBannerColor: #fff;
+
+
+.head {
+    align-content: center;
+}
+
+
+.navbarBackColor {
+    background-color: $NavBarColorMain;
+}
+
+
+.navName {
+    margin-top: 10px;
+    color: $NavNameColor;
+    font-size: 14px;
+    border-right: 1px rgb(110, 109, 109) solid;
+    height: 30px;
+}
+
+.navNameNoBorder {
+    margin-top: 10px;
+    color: $NavNameColor;
+    font-size: 14px;
+    height: 30px;
+}
+
+.columns {
+    .bannerLeft{
+        background-color: $BannerLeft;
+        .sub {
+            color: $txtBannerColor;
+        }
+    }
+
+    .leftBtn {
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        font-size: 26px;
+        margin-bottom: 20px;
+        opacity: 0.8; 
+    }
+
+    .bannerRight{
+        background-color: $BannerRight;
+        .sub {
+            color: $txtBannerColor;
+        }
+    }
+
+}
+
+.btnAllForum {
+    width: 70%;
+}
+
+.field{
+    .input{
+        color: black;
+    }
+}
+
+
+
+
